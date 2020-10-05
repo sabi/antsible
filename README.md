@@ -17,7 +17,7 @@ Automatic Ansible Hosts file management server.  A server listens on your Ansibl
   - `# cp antsible.py /usr/local/bin`
 - Create an easy to call symlink
   - `# ln -s /usr/local/bin/antsible.py /usr/local/bin/ants`
-- Consider creating a systemd service to start antsible at boot
+- (Optional) Consider creating a systemd service to start antsible at boot
 - Edit the `hostsFile` variable in `antsible.py`.  This should be the path of your Ansible hosts file.
 
 ## How to use
