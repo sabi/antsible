@@ -10,6 +10,7 @@ Automatic Ansible Hosts file management server
 - python3, flask, and gunicorn
   - `apt install python3 python3-pip`
   - `pip3 install flask gunicorn`
+  - `wget https://raw.githubusercontent.com/sabi/sabi/main/sabi.py`
  
 ## Setup
 - Download and extract this antsible directory
